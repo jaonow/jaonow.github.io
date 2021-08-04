@@ -33,3 +33,9 @@ figure {
     text-align: center;
     font-size: 20px;
 }
+#heading{
+    color: blue;
+}
+.popular{
+    border: 4px red dotted;
+}
