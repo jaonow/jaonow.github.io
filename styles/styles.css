@@ -1,3 +1,4 @@
+
 html{
     background-color: #b17823;
     font-size: 10px;
@@ -10,6 +11,11 @@ body{
     padding: 0 20px 20px 20px;
     border: 5px solid black;
 }
+img {
+    width : 70%; 
+    height : 70%;
+}
+
 h1{ 
     margin: 0;
     padding: 20px 0;
@@ -33,9 +39,42 @@ figure {
     text-align: center;
     font-size: 20px;
 }
+figure img{
+    width:400px; 
+    height: 250px;
+}
 #heading{
     color: blue;
 }
 .popular{
     border: 4px red dotted;
 }
+@media screen and (min-width:320px) and (max-width:568px){
+    body{
+        width: 60%;
+    }
+     figure img{
+        width:70%; 
+        height: 70%;
+    }
+     h1{
+        font-size: xx-large;
+        text-shadow: 2px 1px 1px black;
+    }
+    figure{
+        font-size: 80%;
+    }
+    p,li{
+        font-size: small;
+    }
+    .popular{
+        border: 3px red dotted;
+    } 
+
+}
+@media screen and (max-width:1024px){
+    body{
+        width: 70%;
+    }
+}
+
